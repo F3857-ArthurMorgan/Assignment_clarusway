@@ -1,0 +1,8 @@
+name_entry = input("Remember password, enter a name:")
+name_entry = name_entry.title()
+if name_entry == "Joseph" :
+    print("Hello, {}! The password is : W@12".format(name_entry))
+elif name_entry == "Edwın" :
+    print("Hello, {}! The password is : Python_for_data_science".format(name_entry))
+else :
+    print("Hello, {}! See you later.".format(name_entry))
